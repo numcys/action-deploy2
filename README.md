@@ -18,7 +18,7 @@ The Deploy action performs the functions of combining the [Build](https://github
 ### `buildargs`
 **Optional** Pass docker build arguments to the build process. Build args are key-value pairs passed as a list like:
 ```
-  build-args:
+  buildargs:
      - BASEIMAGE=myimage
      - MYARG=hello
 ```
