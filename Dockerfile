@@ -17,4 +17,4 @@ RUN curl -L https://github.com/convox/convox/releases/latest/download/convox-lin
     && chmod 755 /usr/local/bin/convox
 
 COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["bash ./entrypoint.sh"]
